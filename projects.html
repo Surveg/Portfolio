@@ -86,9 +86,53 @@
             </div>
         </div>
     </section>
-    <a href="https://drive.google.com/file/d/1SP667qzsZPvod4Uem3cAEiP9oGOyxNvd/view?usp=sharing" download class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Download Resume</title>
+  <style>
+    .download-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 20px;
+      background-color: #4f46e5;
+      color: white;
+      font-size: 16px;
+      font-weight: 600;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .download-btn:hover {
+      background-color: #4338ca;
+      transform: translateY(-2px);
+    }
+
+    .download-btn svg {
+      width: 20px;
+      height: 20px;
+      fill: white;
+    }
+  </style>
+</head>
+<body>
+
+  <a href="https://drive.google.com/file/d/1SP667qzsZPvod4Uem3cAEiP9oGOyxNvd/view?usp=sharing" download class="download-btn">
+    <!-- SVG download icon -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M12 16l4-5h-3V4h-2v7H8l4 5zm-8 2v2h16v-2H4z"/>
+    </svg>
     Download Resume
-    </a>
+  </a>
+
+</body>
+</html>
+
 
     <footer>
         <div class="container">
